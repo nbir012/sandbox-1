@@ -1,1 +1,20 @@
 check it out, Fab!
+i want to submit my assignments to you
+
+Once I fork you repo, I clone that to my working directory:
+
+git clone https://github.com/nbir012/forked-repo
+
+once i commit changes I make, i push it to my origin:
+
+git push origin
+
+but I want to stay up to date with your newer tasks, so i make a connection
+with you (upstream repository):
+
+git remote upstream https://github.com/UOA-MEDSCI-736.git
+
+now that we're connected, I bring in the new task that you create:
+
+git fetch upstream
+git merge upstream/master
